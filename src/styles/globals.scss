@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: var(--background);
+  --scroll: -5;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  font-family: var(--font-geist-sans), serif;
+  color: var(--font-regular);
+}

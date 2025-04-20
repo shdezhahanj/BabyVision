@@ -1,0 +1,13 @@
+
+echo '🏗️👷 Styling, testing, and building your project... Let’s roll!'
+
+# Check biome standards
+npm run format:fix ||
+(
+    echo '😤🚫 Not today! Your code needs a serious makeover! 💄
+            biome Check Failed. Fix the errors above and try again!'
+    false;
+)
+
+# If everything passes... Now we can commit
+echo '✅ You did it! Committing now... 🎉'

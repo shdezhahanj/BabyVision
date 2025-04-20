@@ -6,6 +6,10 @@
 
 Baby Vision Generator is a web application that allows users to upload photos of both parents and visualize what their baby might look like. This is the frontend portion of the application which handles face detection using OpenCV and extracts facial features for processing.
 
+## Demo
+
+Try the live demo at: [https://baby-vision.vercel.app/](https://baby-vision.vercel.app/)
+
 ## Features
 
 - Upload photos of both parents
@@ -18,7 +22,7 @@ Baby Vision Generator is a web application that allows users to upload photos of
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/BabyVision.git
+   git clone https://github.com/shdezhahanj/BabyVision.git
    cd BabyVision
    ```
 
